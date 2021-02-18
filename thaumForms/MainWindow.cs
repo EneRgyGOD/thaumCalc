@@ -23,18 +23,12 @@ namespace thaumForms
             List<string> output = new List<string>();
             string q = comboBox2.Text.ToString();
             output = proc.Calculation(q);
-            label3.Text = "Aer:";
-            label3.Text = label3.Text + " " + output[0];
-            label4.Text = "Ignis:";
-            label4.Text = label4.Text + " " + output[1];
-            label5.Text = "Perditio:";
-            label5.Text = label5.Text + " " + output[2];
-            label6.Text = "Terra:";
-            label6.Text = label6.Text + " " + output[3];
-            label7.Text = "Aqua:";
-            label7.Text = label7.Text + " " + output[4];
-            label8.Text = "Ordo:";
-            label8.Text = label8.Text + " " + output[5];
+            label3.Text = "Aer: " + output[0];
+            label4.Text = "Ignis: " + output[1];
+            label5.Text = "Perditio: " + output[2];
+            label6.Text = "Terra: " + output[3];
+            label7.Text = "Aqua: " + output[4];
+            label8.Text = "Ordo: " + output[5];
         }
         private void button3_Click(object sender, EventArgs e)
         {
